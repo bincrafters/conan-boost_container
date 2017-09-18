@@ -12,15 +12,15 @@ class BoostContainerConan(ConanFile):
     lib_short_names = ["container"]
     options = {"shared": [True, False]}
     default_options = "shared=False"
-    build_requires = "Boost.Generator/0.0.1@bincrafters/testing"
-    requires =  "Boost.Assert/1.65.1@bincrafters/testing", \
-                      "Boost.Config/1.65.1@bincrafters/testing", \
-                      "Boost.Core/1.65.1@bincrafters/testing", \
-                      "Boost.Functional/1.65.1@bincrafters/testing", \
-                      "Boost.Intrusive/1.65.1@bincrafters/testing", \
-                      "Boost.Move/1.65.1@bincrafters/testing", \
-                      "Boost.Static_Assert/1.65.1@bincrafters/testing", \
-                      "Boost.Type_Traits/1.65.1@bincrafters/testing"
+    build_requires = "Boost.Generator/1.64.0@bincrafters/testing"
+    requires =  "Boost.Assert/1.64.0@bincrafters/testing", \
+                      "Boost.Config/1.64.0@bincrafters/testing", \
+                      "Boost.Core/1.64.0@bincrafters/testing", \
+                      "Boost.Functional/1.64.0@bincrafters/testing", \
+                      "Boost.Intrusive/1.64.0@bincrafters/testing", \
+                      "Boost.Move/1.64.0@bincrafters/testing", \
+                      "Boost.Static_Assert/1.64.0@bincrafters/testing", \
+                      "Boost.Type_Traits/1.64.0@bincrafters/testing"
 
                       #assert1 config0 core2 functional5 intrusive6 move3 static_assert1 type_traits3
 
