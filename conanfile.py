@@ -36,7 +36,7 @@ class BoostContainerConan(ConanFile):
 
     # BEGIN
 
-    description = "Please visit http://www.boost.org/doc/libs/1_66_0"
+    description = "Please visit http://www.boost.org/doc/libs/1_65_1"
     license = "BSL-1.0"
     short_paths = True
     generators = "boost"
