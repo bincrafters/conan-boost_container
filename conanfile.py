@@ -4,22 +4,9 @@
 from conans import python_requires
 
 
-base = python_requires("boost_base/1.69.0@bincrafters/testing")
+base = python_requires("boost_base/2.0.0@bincrafters/testing")
+
 
 class BoostContainerConan(base.BoostBaseConan):
     name = "boost_container"
-    version = "1.69.0"
-    url = "https://github.com/bincrafters/conan-boost_container"
-    lib_short_names = ["container"]
-    options = {"shared": [True, False]}
-    default_options = "shared=False"
-    b2_requires = [
-        "boost_assert",
-        "boost_config",
-        "boost_container_hash",
-        "boost_core",
-        "boost_intrusive",
-        "boost_move",
-        "boost_static_assert",
-        "boost_type_traits"
-    ]
+    version = "1.70.0"
